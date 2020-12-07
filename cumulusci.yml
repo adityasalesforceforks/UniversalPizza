@@ -1,0 +1,24 @@
+minimum_cumulusci_version: '3.24.1'
+project:
+    name: UniversalPizza
+    package:
+        name: UniveralPizza
+        api_version: '50.0'
+    git:
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/UniversalPizza/tests
+            options:
+                outputdir: robot/UniversalPizza/results
+
+    robot_testdoc:
+        options:
+            path: robot/UniversalPizza/tests
+            output: robot/UniversalPizza/doc/UniversalPizza_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75
