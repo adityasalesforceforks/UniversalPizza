@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Chicago Style</fullName>
+        <default>false</default>
+        <label>Chicago Style</label>
+    </customValue>
+    <customValue>
+        <fullName>New York Style</fullName>
+        <default>false</default>
+        <label>New York Style</label>
+    </customValue>
+    <masterLabel>Franchise Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
