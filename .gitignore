@@ -23,4 +23,8 @@ robot/UniversalPizza/results/
 .DS_Store
 
 IlluminatedCloud
-.idea
+**.idea
+.idea/illuminatedCloud.xml
+node_modules
+package-lock.json
+UniversalPizza.iml
