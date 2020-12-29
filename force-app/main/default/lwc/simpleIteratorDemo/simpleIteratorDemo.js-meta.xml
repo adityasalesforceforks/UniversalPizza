@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>50.0</apiVersion>
+    <description>demo lwc to iterate over static data</description>
+    <isExposed>true</isExposed>
+    <masterLabel>Simple Iterator Demo</masterLabel>
+</LightningComponentBundle>

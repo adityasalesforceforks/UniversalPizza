@@ -68,4 +68,8 @@
         <name>Universal_Pizza_General</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Universal Pizza Customer</name>
+        <type>Network</type>
+    </appMenuItems>
 </AppMenu>

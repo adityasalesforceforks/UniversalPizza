@@ -1,0 +1,28 @@
+<!--
+ - Created by brooks on 12/28/2020.
+ -->
+
+<!-- Simple Iterator Demo -->
+<template>
+    <lightning-card title="For each Demo" icon-name="standard:contact">
+        <template for:each={franchise} for:item="item" for:index="index">
+            <p key={item.Id} class="slds-m-around_small">
+                {index} - {item.Name} &nbsp; {item.Type}
+            </p>
+        </template>
+    </lightning-card>
+    <div class="slds-m-top_small">
+        <lightning-card title="Iterator Demo" class="slds-m-around_small" icon-name="standard:account">
+            <template iterator:it={franchise} class="slds-m-around_small">
+                <li key={it.value.Id}
+                    class="slds-m-around_small"
+                    style="list-style: none"
+                >
+                    <div if:true={it.first} class="slds-border_top"></div>
+                    {it.value.Name} &nbsp; {it.value.Type}
+                    <div if:true={it.last} class="slds-border_bottom slds-p-bottom_large"></div>
+                </li>
+            </template>
+        </lightning-card>
+    </div>
+</template>
