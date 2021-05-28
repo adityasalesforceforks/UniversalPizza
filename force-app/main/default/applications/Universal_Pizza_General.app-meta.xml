@@ -13,6 +13,7 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Universal Pizza General</label>
     <navType>Standard</navType>
+    <tabs>Demos</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Lead</tabs>
     <tabs>standard-Contact</tabs>
