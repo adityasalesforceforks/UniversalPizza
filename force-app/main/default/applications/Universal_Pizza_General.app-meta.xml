@@ -13,15 +13,14 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Universal Pizza General</label>
     <navType>Standard</navType>
+    <tabs>Demos</tabs>
     <tabs>standard-Account</tabs>
-    <tabs>Pizza__c</tabs>
-    <tabs>Pizza_Order__c</tabs>
     <tabs>standard-Lead</tabs>
     <tabs>standard-Contact</tabs>
+    <tabs>standard-Order</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Product2</tabs>
     <tabs>standard-ProductItem</tabs>
-    <tabs>Materteral__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Universal_Pizza_General_UtilityBar</utilityBar>
 </CustomApplication>

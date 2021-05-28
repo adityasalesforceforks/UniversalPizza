@@ -1,1 +1,0 @@
-{"errors":[{"filename":"C:\\wsl\\UniveralPizza\\force-app\\main\\default\\lwc\\simpleIteratorDemo\\simpleIteratorDemo.html","location":{"line":17,"column":17,"start":654,"length":57},"code":"","message":"Missing key for element <div> inside of iterator. Elements within iterators must have a unique, computed key value."}]}
